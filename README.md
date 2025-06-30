@@ -61,6 +61,6 @@ Tujuan Pembelajaran:
 
 
 Dibuat oleh: 
--Vania Claresta
--Mahasiswa Sains Data
--Institut Teknologi Sumatera
+Vania Claresta
+Mahasiswa Sains Data
+Institut Teknologi Sumatera
