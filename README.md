@@ -54,11 +54,11 @@ JOIN buku b ON p.id_buku = b.id_buku;
 - MariaDB/MySQL
 - DBeaver
 - SQL
-  
-🧠Tujuan Pembelajaran:
--Memahami konsep relasi antar tabel di RDBMS
--Membuat struktur database dan mengelola data dengan SQL
--Membuat query analisis seperti JOIN, GROUP BY, dan ORDER
+
+🧠 Tujuan Pembelajaran:
+- Memahami konsep relasi antar tabel di RDBMS
+- Membuat struktur database dan mengelola data dengan SQL
+- Membuat query analisis seperti JOIN, GROUP BY, dan ORDER
 
 
 Dibuat oleh: 
