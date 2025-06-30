@@ -43,13 +43,6 @@ create table denda (
 	keterangan varchar(100),
 	foreign key (id_pengembalian) references pengembalian (id_pengembalian)
 );
-create table denda (
-	id_denda int primary key auto_increment,
-	id_pengembalian int,
-	jumlah int,
-	keterangan varchar(100),
-	foreign key (id_pengembalian) references pengembalian (id_pengembalian)
-);
 insert into kategori (nama_kategori) values 
 ('teknologi'),
 ('sains'),
@@ -112,9 +105,9 @@ select
 	pg.tanggal_kembali as tgl_pengembalian,
 	d.jumlah as denda
 from pengembalian pg
-join peminjaman p on p.id_peminjaman = p.id_peminjaman
-join anggota a on a.id_anggota = a.id_anggota
-join buku b on b.id_buku = b.id_buku
+join peminjaman p on pg.id_peminjaman = pg.id_peminjaman
+join anggota a on p.id_anggota = p.id_anggota
+join buku b on p.id_buku = p.id_buku
 left join denda d on pg.id_pengembalian = d.id_pengembalian;
 select a.nama, SUM(DISTINCT d.jumlah) AS total_denda
 from denda d
