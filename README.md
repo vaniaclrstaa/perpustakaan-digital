@@ -50,17 +50,17 @@ FROM peminjaman p
 JOIN anggota a ON p.id_anggota = a.id_anggota
 JOIN buku b ON p.id_buku = b.id_buku;
 ```
-Tools:
-Maria DB/MySQL
-DBeaver
-SQL
-Tujuan Pembelajaran
-Memahami konsep relasi antar tabel di RDBMS
-Membuat struktur database dan mengelola data dengan SQL
-Membuat query analisis seperti JOIN, GROUP BY, dan ORDER
+🛠 Tools yang digunakan:
+- MariaDB/MySQL
+- DBeaver
+- SQL
+Tujuan Pembelajaran:
+-Memahami konsep relasi antar tabel di RDBMS
+-Membuat struktur database dan mengelola data dengan SQL
+-Membuat query analisis seperti JOIN, GROUP BY, dan ORDER
 
 
 Dibuat oleh: 
-Vania Claresta
-Mahasiswa Sains Data
-Institut Teknologi Sumatera
+-Vania Claresta
+-Mahasiswa Sains Data
+-Institut Teknologi Sumatera
